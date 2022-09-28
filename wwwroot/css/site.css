@@ -1,0 +1,41 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #F5DEB3;
+}
+
+.display-4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.projeto {
+    display: flex;
+}
+
+.conteudo_projeto{
+    text-align: justify;
+}
+
+.imagem_destaque_index, .conteudo_projeto {
+    display: inline-table;
+    width: 60%;
+    height: 60%;
+
+}
+
+
+
